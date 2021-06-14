@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Exam2.Pages.DemoFileHandle"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Exam2.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:ConnectionId='2' FontSize="40" x:Name="user_name" HorizontalAlignment="Left" Margin="511,151,0,0" Text="user_name" TextWrapping="Wrap" VerticalAlignment="Top" Height="127" Width="433"/>
+        <TextBox x:ConnectionId='3' FontSize="40" x:Name="password" HorizontalAlignment="Left" Margin="511,322,0,0" Text="password" TextWrapping="Wrap" VerticalAlignment="Top" Height="127" Width="433"/>
+
+        <Button x:ConnectionId='4'                  x:Name="WriteFile" Content="Register" Margin="247,500,0,0" VerticalAlignment="Top" Height="111" Width="346"/>
+        <Button x:ConnectionId='5'               x:Name="ReadFile" Content="Login" Margin="750,500,0,0" VerticalAlignment="Top" Height="101" Width="394"/>
+        <TextBlock x:ConnectionId='6' FontSize="20" x:Name="txtBlock" HorizontalAlignment="Left" Margin="429,724,0,0" Text="Thong bao trang thai dang ki" TextWrapping="Wrap" VerticalAlignment="Top" Height="127" Width="433"/>
+        <TextBlock x:ConnectionId='7' FontSize="20" x:Name="txtLogin" HorizontalAlignment="Left" Margin="429,831,0,0" Text="Thong bao trang thai Login" TextWrapping="Wrap" VerticalAlignment="Top" Height="127" Width="433"/>
+
+    </Grid>
+</Page>
+
